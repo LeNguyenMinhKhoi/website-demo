@@ -23,7 +23,7 @@ body {
       gap: 30px;
       margin: 0;
       padding: 0;
-      margin-right: 250px;
+      margin-right: 160px;
     }
 
 .nav li a {
@@ -103,7 +103,6 @@ body {
   align-items: flex-start;
   flex-wrap: wrap;
   margin-top: 10px;
-  margin-right: 140px;
  }
 .services-box {
   background: white;
