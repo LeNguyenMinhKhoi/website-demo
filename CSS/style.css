@@ -4,8 +4,6 @@
 }
 body {
     background-color: #fff1c9;
-    
-      
 }
 .nav {
     background-color: rgb(245,222,179);
@@ -25,7 +23,7 @@ body {
       gap: 30px;
       margin: 0;
       padding: 0;
-      margin-right: 160px;
+      margin-right: 250px;
     }
 
 .nav li a {
@@ -38,7 +36,6 @@ body {
     font-size: 20px;
 }
 
-    /* Mục được chọn (active) */
     .nav ul li a.a {
       background-color: white;
       padding: 10px;
@@ -106,6 +103,7 @@ body {
   align-items: flex-start;
   flex-wrap: wrap;
   margin-top: 10px;
+  margin-right: 140px;
  }
 .services-box {
   background: white;
@@ -168,6 +166,7 @@ body {
   height: auto;
 }
   .footer {
+    margin-top: 20px;
      background-color: black;
     text-align: center;
     padding: 10px 0;
