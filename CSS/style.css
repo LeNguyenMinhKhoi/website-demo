@@ -1,109 +1,117 @@
 * {
-    box-sizing: border-box;
-    
+  box-sizing: border-box;
+
 }
+
 body {
-    background-color: #fff1c9;
+  background-color: #fff1c9;
 }
+
 .nav {
-    background-color: rgb(245,222,179);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
+  background-color: rgb(245, 222, 179);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
 }
+
 .nav .logo {
-   width: 10%;
-   margin-left: 160px;
-   
+  width: 10%;
+  margin-left: 160px;
+
 }
- .nav ul {
-      list-style: none;
-      display: flex;
-      gap: 30px;
-      margin: 0;
-      padding: 0;
-      margin-right: 160px;
-    }
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+  margin-right: 160px;
+}
 
 .nav li a {
-    text-decoration: none;
-    color: #2e9c18;
-    font-weight: 500;
-     padding: 8px 16px;
-    border-radius: 8px;
-    transition: all 0.3s;
-    font-size: 20px;
+  text-decoration: none;
+  color: #2e9c18;
+  font-weight: 500;
+  padding: 8px 16px;
+  border-radius: 8px;
+  transition: all 0.3s;
+  font-size: 20px;
 }
 
-    .nav ul li a.a {
-      background-color: white;
-      padding: 10px;
-    }
+.nav ul li a.a {
+  background-color: white;
+  padding: 10px;
+}
 
-    .nav ul li a:hover{
-       background-color: white;
-      color: #00bcd4;
-       padding: 10px;
-    }
-    .content-img1{
-        width: 100%;
-        height: 400px;
-    }
-     .container {
-      display: flex;
-      align-items: center;
-      background-color: #fff1c9;
-      padding: 20px;
-      gap: 40px;
-      
-    }
-    
-    .img-2 {
-      border: 3px ;
-      border-radius: 15px;
-      padding: 8px;
-      background-color: white;
-      margin-left: 160px;
-    }
+.nav ul li a:hover {
+  background-color: white;
+  color: #00bcd4;
+  padding: 10px;
+}
 
-    .img-2 .content-img2 {
-      border-radius: 10px;
-      max-width: 100%;
-      height: auto;
-      display: block;
-    }
+.content-img1 {
+  width: 100%;
+  height: 400px;
+}
 
-    .content-box {
-        max-width: 600px;
-        text-align: left; 
-        line-height: 1.8; 
-    }
+.container {
+  display: flex;
+  align-items: center;
+  background-color: #fff1c9;
+  padding: 20px;
+  gap: 40px;
 
-    .content-box h2 {
-      color: #2e9c18;
-      font-size: 28px;
-      margin-bottom: 10px;
-      font-style: italic;
-    }
+}
 
-    .content-box p {
-      font-size: 16px;
-      line-height: 1.6;
-      margin-bottom: 20px;
-    }
+.img-2 {
+  border: 3px;
+  border-radius: 15px;
+  padding: 8px;
+  background-color: white;
+  margin-left: 160px;
+}
 
-    .content-box strong {
-      font-weight: bold;
-    }
- .main-wrapper {
+.img-2 .content-img2 {
+  border-radius: 10px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.content-box {
+  max-width: 600px;
+  text-align: left;
+  line-height: 1.8;
+}
+
+.content-box h2 {
+  color: #2e9c18;
+  font-size: 28px;
+  margin-bottom: 10px;
+  font-style: italic;
+}
+
+.content-box p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.content-box strong {
+  font-weight: bold;
+}
+
+.main-wrapper {
   display: flex;
   gap: 0%;
   justify-content: center;
   align-items: flex-start;
   flex-wrap: wrap;
   margin-top: 10px;
- }
+}
+
 .services-box {
   background: white;
   border-radius: 10px;
@@ -111,12 +119,14 @@ body {
   width: 40%;
   margin-right: 340px;
 }
+
 .service h2 {
-     color: #2e9c18;
-      font-size: 28px;
-      margin-bottom: 10px;
-      margin-left: 180px;
+  color: #2e9c18;
+  font-size: 28px;
+  margin-bottom: 10px;
+  margin-left: 180px;
 }
+
 .title {
   padding: 15px 20px;
   font-weight: bold;
@@ -164,25 +174,26 @@ body {
   max-width: 28px;
   height: auto;
 }
-  .footer {
-    margin-top: 20px;
-     background-color: black;
-    text-align: center;
-    padding: 10px 0;
-    font-style: italic;
-    font-family: Arial, Helvetica, sans-serif
-  }
-    
- .footer p {
-     margin: 4px 0;
-     color: #fff1c9;
- }
-    
- .footer .line1 {
-    font-size: 10px;
+
+.footer {
+  margin-top: 20px;
+  background-color: black;
+  text-align: center;
+  padding: 10px 0;
+  font-style: italic;
+  font-family: Arial, Helvetica, sans-serif
 }
-    
+
+.footer p {
+  margin: 4px 0;
+  color: #fff1c9;
+}
+
+.footer .line1 {
+  font-size: 10px;
+}
+
 .footer .line2 {
-    font-size: 10px;
-     font-weight: 500;
+  font-size: 10px;
+  font-weight: 500;
 }
