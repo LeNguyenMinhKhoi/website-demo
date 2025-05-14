@@ -81,7 +81,7 @@ body {
 }
 
 .content-box {
-  max-width: 600px;
+  max-width: 100%;
   text-align: left;
   line-height: 1.8;
 }
